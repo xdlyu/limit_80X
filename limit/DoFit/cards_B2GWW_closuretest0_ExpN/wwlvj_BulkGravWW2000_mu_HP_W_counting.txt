@@ -1,0 +1,31 @@
+imax 1
+jmax 4
+kmax *
+--------------- 
+bin CMS_xww_mu1JHP 
+observation 9.00 
+------------------------------
+bin CMS_xww_mu1JHP CMS_xww_mu1JHP CMS_xww_mu1JHP CMS_xww_mu1JHP CMS_xww_mu1JHP
+process BulkGravWW2000_xww WJets_xww TTbar_xww STop_xww VV_xww 
+process -1 1 2 3 4
+rate 0.8258666 6.583 3.033 0.631 0.794 
+-------------------------------- 
+lumi_13TeV lnN 1.025 - 1.025 1.025 1.025
+CMS_xww_XS_Signal lnN 1.002 - - - -
+CMS_xww_XS_STop lnN - - - 1.020 -
+CMS_xww_XS_VV lnN - - - - 1.200
+CMS_xww_WJ_norm_mu_HP lnN - 1.153 - - -
+CMS_xww_vtag_Top_SF_mu_HP lnN - 0.993/1.007 1.009/0.991 1.009/0.991 -
+CMS_eff_vtag_tau21_sf lnN 1.140/0.860 - - - 1.140/0.860
+CMS_eff_vtag_pT  lnN 1.066 - - - 1.066
+CMS_xww_btagger lnN 1.003 0.975/1.025 1.029/0.971 1.023/0.977 1.003
+#CMS_eff_vtag_model lnN 1.000 - - - 1.000
+CMS_xww_trigger_m lnN 1.050 - 1.050 1.050 1.050
+CMS_eff_m lnN 1.100 - 1.100 1.100 1.100
+CMS_scale_m lnN 1.007 - - - 1.007
+CMS_res_m lnN 1.001 - - - 1.001
+CMS_scale_j  lnN 0.982/1.012 - - - 0.982/1.012
+CMS_mass_scale_j  lnN 0.965/1.020 - - - 0.965/1.020
+CMS_mass_res_j  lnN 1.006/0.985 - - - 1.006/0.985
+CMS_res_j  lnN 1.003 - - - 1.003
+Shape_mu_HP lnN - - 1.000 - - -

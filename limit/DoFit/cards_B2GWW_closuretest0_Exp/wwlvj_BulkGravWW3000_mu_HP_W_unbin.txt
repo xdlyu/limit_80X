@@ -1,0 +1,47 @@
+imax 1
+jmax 4
+kmax *
+--------------- 
+shapes BulkGravWW3000_xww  CMS_xww_mu1JHP  wwlvj_BulkGravWW3000_mu_HP_W_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes WJets_xww  CMS_xww_mu1JHP  wwlvj_BulkGravWW3000_mu_HP_W_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes TTbar_xww  CMS_xww_mu1JHP  wwlvj_BulkGravWW3000_mu_HP_W_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes STop_xww   CMS_xww_mu1JHP  wwlvj_BulkGravWW3000_mu_HP_W_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes VV_xww     CMS_xww_mu1JHP  wwlvj_BulkGravWW3000_mu_HP_W_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes data_obs   CMS_xww_mu1JHP  wwlvj_BulkGravWW3000_mu_HP_W_workspace.root workspace4limit_:$PROCESS_xww_mu_HP
+--------------- 
+bin CMS_xww_mu1JHP 
+observation 198.00 
+------------------------------
+bin CMS_xww_mu1JHP CMS_xww_mu1JHP CMS_xww_mu1JHP CMS_xww_mu1JHP CMS_xww_mu1JHP
+process BulkGravWW3000_xww WJets_xww TTbar_xww STop_xww VV_xww 
+process -1 1 2 3 4
+rate 3.7210772 98.762 73.549 12.958 21.409 
+-------------------------------- 
+lumi_13TeV lnN 1.025 - 1.025 1.025 1.025
+CMS_xww_XS_Signal lnN 1.003 - - - -
+CMS_xww_XS_STop lnN - - - 1.020 -
+CMS_xww_XS_VV lnN - - - - 1.200
+CMS_xww_WJ_norm_mu_HP lnN - 1.155 - - -
+CMS_xww_vtag_Top_SF_mu_HP lnN - 0.993/1.007 1.009/0.991 1.009/0.991 -
+CMS_eff_vtag_tau21_sf lnN 1.140/0.860 - - - 1.140/0.860
+CMS_eff_vtag_pT  lnN 1.083 - - - 1.083
+CMS_xww_btagger lnN 1.003 0.975/1.025 1.029/0.971 1.023/0.977 1.003
+#CMS_eff_vtag_model lnN 1.000 - - - 1.000
+CMS_xww_trigger_m lnN 1.050 - 1.050 1.050 1.050
+CMS_eff_m lnN 1.100 - 1.100 1.100 1.100
+CMS_scale_m lnN 1.007 - - - 1.007
+CMS_res_m lnN 1.001 - - - 1.001
+CMS_scale_j  lnN 0.982/1.012 - - - 0.982/1.012
+CMS_mass_scale_j  lnN 0.965/1.020 - - - 0.965/1.020
+CMS_mass_res_j  lnN 1.006/0.985 - - - 1.006/0.985
+CMS_res_j  lnN 1.003 - - - 1.003
+Deco_WJets0_xww_sb_lo_from_fitting_mu_HP_mlvj_eig0 param 0.0 1.4 
+Deco_WJets0_xww_sb_lo_from_fitting_mu_HP_mlvj_eig1 param 0.0 1.4 
+Deco_WJets0_xww_sim_mu_HP_mlvj_eig0 param 0.0 1.4 
+Deco_WJets0_xww_sim_mu_HP_mlvj_eig1 param 0.0 1.4 
+Deco_TTbar_xww_signal_region_mu_HP_mlvj_eig0 param 0.0 2.0 
+CMS_sig_p1_scale_m param 0.0 1.0 
+CMS_sig_p2_scale_m param 0.0 1.0 
+CMS_sig_p1_jes param 0.0 1.0 
+CMS_sig_p2_jes param 0.0 1.0 
+CMS_sig_p2_jer param 0.0 1.0 
